@@ -58,7 +58,7 @@ public class UserDetailImpl implements UserDetails {
 
     @Override
     public String getUsername() {
-        return email;
+        return username;
     }
 
     @Override
@@ -89,8 +89,6 @@ public class UserDetailImpl implements UserDetails {
         UserDetailImpl user = (UserDetailImpl) o;
         return Objects.equals(id, user.id);
     }
-    public void setEmail(String email){
-        this.email = email;
-    }
+
 
 }
