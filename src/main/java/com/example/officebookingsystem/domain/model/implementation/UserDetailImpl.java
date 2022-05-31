@@ -1,6 +1,6 @@
-package com.example.officebookingsystem.security.service;
+package com.example.officebookingsystem.domain.model.implementation;
 
-import com.example.officebookingsystem.domain.entity.User;
+import com.example.officebookingsystem.domain.model.entity.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,4 +1,4 @@
-package com.example.officebookingsystem.domain.entity;
+package com.example.officebookingsystem.domain.model.entity;
 
 import com.example.officebookingsystem.domain.model.ERole;
 import lombok.AllArgsConstructor;
